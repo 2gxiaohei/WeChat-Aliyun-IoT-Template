@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/message/message"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "物联网小程序模板",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "连接阿里云测试测试",
+        "iconPath": "icon/connect_black.png",
+        "selectedIconPath": "icon/connect_blue.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "接收云平台消息",
+        "iconPath": "icon/message_black.png",
+        "selectedIconPath": "icon/message_blue.png"
+      }
+    ]
+  }
+}
+

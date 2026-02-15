@@ -1,0 +1,17 @@
+<view class="modern-container">
+  <view class="hero-section">
+    <text class="hero-title">云平台连接测试</text>
+  </view>
+
+  <view class="test-section">
+    <text class="test-desc">说明：测试连接时请点击按钮测试小程序打开阿里云平台在下方倒计时结束前在设备列表微信小程序端通过Topic列表向微信小程序发送{"status": "connecttestok"}字段，如果成功本界面会弹出成功窗口</text>
+    <button class="modern-btn" bindtap="onClickConnecTest">
+      运行通信测试
+    </button>
+    
+    <!-- 测试状态显示 -->
+    <view class="test-status {{testStatus ? 'show' : ''}}">
+      <text class="status-text">{{testStatus}}</text>
+    </view>
+  </view>
+</view>

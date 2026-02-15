@@ -1,0 +1,102 @@
+/* ===== 黑白极简主题 ===== */
+.modern-container{
+  padding:300rpx 10rpx;
+  background:#fff;              /* 纯白背景 */
+  min-height:100vh;
+}
+
+.hero-section{
+  text-align:center;
+  margin-bottom:20rpx;          /* 减小与下方说明的距离 */
+  padding:0rpx 0;
+}
+
+/* 艺术大字标题：黑白渐变 */
+.hero-title{
+  display:block;
+  font-size:52rpx;
+  font-weight:800;
+  margin-bottom:8rpx;           /* 减小内部下边距 */
+  letter-spacing:2rpx;
+  /* 黑白渐变 */
+  background:linear-gradient(45deg,#000 0%,#555 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-shadow:0 2rpx 4rpx rgba(0,0,0,.05);
+}
+
+.hero-desc{
+  display:block;
+  font-size:28rpx;
+  color:#666;                 /* 中灰 */
+  font-weight:300;
+}
+
+/* 卡片 */
+.test-section{
+  background:#fafafa;         /* 浅灰卡片 */
+  border-radius:20rpx;
+  padding:40rpx 30rpx;
+  text-align:center;
+  box-shadow:0 8rpx 30rpx rgba(0,0,0,.08);
+}
+
+.icon{
+  font-size:70rpx;
+  margin-bottom:25rpx;
+  color:#000;                 /* 黑色图标 */
+}
+
+.test-desc{
+  display:block;
+  font-size:26rpx;
+  color:#888;                 /* 灰色提示 */
+  line-height:1.5;
+  margin-bottom:35rpx;
+  width:70%;                  /* 宽度降低为70% */
+  margin-left:auto;           /* 水平居中显示，但左对齐文字 */
+  margin-right:auto;
+  text-align:left;            /* 文字左对齐 */
+}
+
+/* 黑色小号按钮 */
+.modern-btn{
+  background:#000;            /* 纯黑 */
+  border:none;
+  border-radius:12rpx;
+  padding:18rpx 30rpx;
+  color:#fff;
+  font-size:28rpx;
+  font-weight:500;
+  min-width:200rpx;
+  display:inline-block;
+  transition:all .3s ease;
+  box-shadow:0 4rpx 12rpx rgba(0,0,0,.15);
+}
+
+.modern-btn:active{
+  background:#333;            /* 点击稍亮 */
+  transform:translateY(2rpx);
+  box-shadow:0 2rpx 6rpx rgba(0,0,0,.15);
+}
+
+/* 测试状态文字 */
+.test-status{
+  margin-top:25rpx;
+  opacity:0;
+  transform:translateY(10rpx);
+  transition:all .3s ease;
+}
+
+.test-status.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.status-text{
+  font-size:24rpx;
+  color:#888;
+  line-height:1.4;
+  text-align:center;
+}

@@ -1,0 +1,47 @@
+<!--pages/login/login.wxml-->
+<view class="login-container">
+  <view class="login-box">
+    <!-- Logo区域 -->
+    <view class="logo-container">
+      <text class="logo-icon">Logo</text>
+      <text class="logo-text">WELCOM</text>
+    </view>
+    
+    <!-- 标题 -->
+    <view class="login-header">
+      <text class="login-title">{{title}}</text>
+    </view>
+
+    <!-- 输入框区域 -->
+    <view class="input-container">
+      <view class="input-wrapper">
+        <input 
+          class="login-input" 
+          placeholder="请输入手机号" 
+          placeholder-style="color:#888"
+          type="number"
+          maxlength="11"
+        />
+      </view>
+      <view class="input-wrapper">
+        <input 
+          class="login-input" 
+          placeholder="请输入密码" 
+          placeholder-style="color:#888"
+          password="{{true}}"
+        />
+      </view>
+    </view>
+    
+    <!-- 按钮区域 -->
+    <view class="button-container">
+      <button class="login-btn primary" type="primary" bindtap="handleLogin">登录</button>
+      <button class="login-btn secondary" type="default" bindtap="handleReg">注册</button>
+    </view>
+    
+    <!-- 底部链接 -->
+    <view class="footer-links">
+      <text class="link-text">忘记密码？</text>
+    </view>
+  </view>
+</view>

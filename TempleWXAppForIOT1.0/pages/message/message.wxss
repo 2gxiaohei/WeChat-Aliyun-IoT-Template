@@ -1,0 +1,53 @@
+/* pages/message/message.wxss */
+.page{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #fff;
+}
+
+.header {
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #eee;
+  background: #f8f8f8;
+}
+
+.clear-btn {
+  background: #000;
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 8rpx;
+  padding: 12rpx 24rpx;
+  line-height: 1;
+}
+
+.clear-btn:active {
+  background: #d9363e;
+  opacity: 0.8;
+}
+
+.msg-box{
+  flex: 1;
+  padding: 40rpx;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;   /* 正常顺序：从上到下 */
+}
+
+.item{
+  margin-bottom: 30rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+
+.time{
+  font-size: 24rpx;
+  color: #888;
+}
+
+.cnt{
+  display: block;
+  font-size: 30rpx;
+  color: #000;
+  margin-top: 8rpx;
+}
