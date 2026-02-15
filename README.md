@@ -35,7 +35,6 @@
 
 ```
 TempleWXAppForIOT/
-├── 🛠️ .idea/                   # IDE配置文件夹（可忽略）
 ├── 🎨 icon/                     # 图标资源目录
 │   ├── connect_black.png        # 连接图标（未选中）
 │   ├── connect_blue.png         # 连接图标（已选中）
@@ -69,8 +68,6 @@ TempleWXAppForIOT/
 ├── 🔑 config.js                    # 【统一配置文件-必改】
 ├── ⚙️ project.config.json          # 公共标准配置文件
 ├── 🔒 project.private.config.json  # 私有项目配置文件
-├── 🗺️ sitemap.json                 # 站点地图配置
-└── 👁️ .gitignore                   # Git忽略文件
 ```
 
 ---
